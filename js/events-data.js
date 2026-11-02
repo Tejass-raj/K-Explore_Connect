@@ -1,0 +1,107 @@
+/* Event data. Edit this file to add, change or remove events. */
+window.KE_EVENTS = [
+  {
+    id: "KIIT MUN",
+    name: "KIIT MUN",
+    category: "MUN",
+    date: "2026-12-12T19:00:00+05:30",
+    venue: "KIIT Campus6, Bhubaneswar",
+    image: "images/event-8.webp",
+    featured: false,
+    seats: 900,
+    price: "₹1,500",
+    short: "Debate. Diplomacy. Leadership. 🌍",
+    description: "KIIT MUN (Model United Nations) is a platform where students represent different countries, engage in diplomatic discussions, debate global issues, and develop leadership, negotiation, and public speaking skills."
+  },
+  {
+    id: "FED Omega",
+    name: "Omega 6.0",
+    category: "Entrepreneurial event",
+    date: "2026-12-19T11:00:00+05:30",
+    venue: "KIIT Campus 6, Bhubaneswar",
+    image: "images/event-5.webp",
+    featured: true,
+    seats: 800,
+    price: "200",
+    short: "Innovate. Ideate. Inspire. 🚀",
+    description: "FED Omega 6.0 is the flagship annual entrepreneurial event of FED KIIT, bringing together aspiring entrepreneurs, innovators, and industry leaders through engaging activities, competitions, networking, and inspiring sessions."
+  },
+  {
+    id: "FED hackathon",
+    name: "FED Hackathon",
+    category: "Tech",
+    date: "2027-01-09T10:00:00+05:30",
+    venue: "C25, KIIT, Bhubaneswar",
+    image: "images/event-4.webp",
+    featured: true,
+    seats: 400,
+    price: "₹500",
+    short: "Code. Create. Innovate. 💡",
+    description: "FED Hackathon is an innovation-driven event where students collaborate, brainstorm, and develop creative solutions to real-world problems through technology, teamwork, and entrepreneurship."
+  },
+  {
+    id: "Rajat Sood Show",
+    name: "Rajat Sood: I'm Worth It",
+    category: "Comedy",
+    date: "2027-01-23T09:30:00+05:30",
+    venue: "C6 Auditorium, KIIT, Bhubaneswar",
+    image: "images/event-3.webp",
+    featured: false,
+    seats: 600,
+    price: "₹400",
+    short: "Laugh Out Loud. Enjoy Every Moment. 🎤",
+    description: "Rajat Sood Comedy Show is a laughter-filled live stand-up comedy experience featuring hilarious storytelling, witty observations, and entertaining performances by comedian Rajat Sood"
+  },
+  {
+    id: "Shark Tank",
+    name: "Shark Tank",
+    category: "Investment",
+    date: "2027-02-06T19:30:00+05:30",
+    venue: "C17, KIIT, Bhubaneswar",
+    image: "images/event-2.webp",
+    featured: false,
+    seats: 1000,
+    price: "Free",
+    short: "Pitch. Persuade. Prosper. 🚀",
+    description: "Shark Tank FED is an entrepreneurial pitching competition where aspiring founders present their startup ideas, business models, and innovations to a panel of judges, seeking feedback, mentorship, and potential investment opportunities."
+  },
+  {
+    id: "KIIT Fest",
+    name: "KIIT Fest",
+    category: "Entertainment",
+    date: "2027-02-20T17:30:00+05:30",
+    venue: "KIIT Stadium, Bhubaneswar",
+    image: "images/event-6.webp",
+    featured: false,
+    seats: 3000,
+    price: "₹750",
+    short: "Celebrate. Create. Connect. 🎉",
+    description: "KIIT Fest is a vibrant annual celebration of talent, creativity, and culture, featuring exciting performances, competitions, entertainment, and unforgettable experiences for students."
+  },
+  {
+    id: "KIIT Tech Fest",
+    name: "KIIT Tech Fest",
+    category: "Tech",
+    date: "2027-03-13T16:00:00+05:30",
+    venue: "KIIT Stadium, Bhubaneswar",
+    image: "images/event-7.webp",
+    featured: true,
+    seats: 3000,
+    price: "800",
+    short: "Innovate. Build. Transform. 💻",
+    description: "KIIT Tech Fest is a technology-driven event showcasing innovation, creativity, and technical excellence through hackathons, coding competitions, workshops, and exciting tech challenges."
+  },
+  {
+    id: "GSoC by FEDKIIT",
+    name: "GSoC by FEDKIIT",
+    category: "Google Summer of Code",
+    date: "2027-04-03T10:00:00+05:30",
+    venue: "K-Explore Studio, Bhubaneswar",
+    image: "images/event-1.webp",
+    featured: false,
+    seats: 400,
+    price: "₹300",
+    short: "Learn. Contribute. Grow. 💻",
+    description: "GSoC by FED KIIT is a technology-focused initiative aimed at introducing students to open-source development, collaborative coding, and real-world software projects while building industry-relevant skills."
+  }
+];

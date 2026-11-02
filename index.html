@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K-Explore Connect — Discover Remarkable Events</title>
+<meta name="description" content="K-Explore Connect is an event platform to explore upcoming music, art, workshops, conferences and culinary events, and register in minutes.">
+<meta name="theme-color" content="#0E0D0B">
+<meta property="og:title" content="K-Explore Connect — Discover Remarkable Events">
+<meta property="og:description" content="K-Explore Connect is an event platform to explore upcoming music, art, workshops, conferences and culinary events, and register in minutes.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="K-Explore Connect — home">K-Explore <em>Connect</em></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav class="nav" id="site-nav" aria-label="Main">
+    <ul>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+<section class="hero">
+  <span class="label fade d1">Events &middot; Curated</span>
+  <h1 class="display fade d2">K-Explore<br><em>Connect</em></h1>
+  <p class="lead fade d3">A considered way to discover the events worth attending, and to take your place at them.</p>
+  <a class="btn fade d4" href="events.html">Explore Events</a>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <span class="label reveal">Featured</span>
+    <h2 class="title reveal" style="margin:1.25rem 0 4rem">Upcoming <em>events</em></h2>
+    <div class="grid" id="featured-grid"></div>
+    <p class="reveal" style="margin-top:4.5rem"><a class="btn" href="events.html">View all events</a></p>
+  </div>
+</section>
+
+<section class="section" id="next-event">
+  <div class="wrap">
+    <span class="label reveal">Next Up</span>
+    <h2 class="title reveal" id="next-name" style="margin:1.25rem 0 1rem"></h2>
+    <p class="text reveal" id="next-info"></p>
+    <div class="countdown reveal" id="next-countdown" aria-live="off"></div>
+    <p class="reveal" style="margin-top:3rem"><a class="link" id="next-link" href="events.html">View details</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <span class="label reveal">How it works</span>
+    <h2 class="title reveal" style="margin-top:1.25rem">Three simple <em>steps</em></h2>
+    <div class="steps">
+      <div class="reveal"><span class="num">I</span><h3>Browse</h3><p>Search by name or venue, and filter by category.</p></div>
+      <div class="reveal"><span class="num">II</span><h3>Choose</h3><p>Read the details, the date and the venue before you decide.</p></div>
+      <div class="reveal"><span class="num">III</span><h3>Register</h3><p>Reserve your place in under a minute and receive a reference.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <a class="logo" href="index.html">K-Explore <em>Connect</em></a>
+      <p class="text" style="margin-top:1rem;font-size:0.9rem">Discover, choose and attend remarkable events.</p>
+    </div>
+    <div>
+      <h4 class="label">Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="label">Contact</h4>
+      <ul>
+        <li><a href="tel:+919876543210">+91 9102224904</a></li>
+        <li><a href="mailto:hello@k-explore.com">2405315@kiit.ac.in</a></li>
+        <li><span class="text" style="font-size:0.9rem">KIIT, Bhubaneswar, Odisha</span></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">&copy; <span data-year>2026</span> K-Explore Connect. All rights reserved.</p>
+</footer>
+<script src="js/events-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

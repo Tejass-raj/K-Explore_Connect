@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register — K-Explore Connect</title>
+<meta name="description" content="Register for an upcoming event on K-Explore Connect. Enter your name, email, phone number and choose your event.">
+<meta name="theme-color" content="#0E0D0B">
+<meta property="og:title" content="Register — K-Explore Connect">
+<meta property="og:description" content="Register for an upcoming event on K-Explore Connect. Enter your name, email, phone number and choose your event.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="register">
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="K-Explore Connect — home">K-Explore <em>Connect</em></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav class="nav" id="site-nav" aria-label="Main">
+    <ul>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="register.html" aria-current="page">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+<section class="page-head">
+  <span class="label fade d1">Reserve your place</span>
+  <h1 class="display fade d2" style="font-size:clamp(3rem,11vw,7.5rem)"><em>Register</em></h1>
+  <p class="lead fade d3">Complete the form below to secure your seat.</p>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="notice" id="reg-success" role="status" hidden>Registered<small>Success</small></div>
+    <div class="notice notice--error" id="reg-error" role="alert" hidden><span>Error</span><small>Please try again</small></div>
+
+    <form class="form" id="reg-form" novalidate>
+      <div class="field">
+        <label class="label" for="name">Full name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+        <span class="error" aria-live="polite"></span>
+      </div>
+      <div class="field">
+        <label class="label" for="email">Email address</label>
+        <input type="email" id="email" name="email" autocomplete="email" inputmode="email" required>
+        <span class="error" aria-live="polite"></span>
+      </div>
+      <div class="field">
+        <label class="label" for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" required>
+        <span class="error" aria-live="polite"></span>
+      </div>
+      <div class="field">
+        <label class="label" for="event">Event</label>
+        <select id="event" name="event" required>
+          <option value="">Select an event</option>
+        </select>
+        <span class="error" aria-live="polite"></span>
+      </div>
+      <button class="btn" type="submit">Confirm Registration</button>
+    </form>
+
+    <div class="regs" id="reg-list" hidden>
+      <h2 class="subtitle">Your <em>registrations</em></h2>
+      <ul id="reg-items"></ul>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <a class="logo" href="index.html">K-Explore <em>Connect</em></a>
+      <p class="text" style="margin-top:1rem;font-size:0.9rem">Discover, choose and attend remarkable events.</p>
+    </div>
+    <div>
+      <h4 class="label">Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="label">Contact</h4>
+      <ul>
+        <li><a href="tel:+919876543210">+91 9102224904</a></li>
+        <li><a href="mailto:hello@k-explore.com">2405315@kiit.ac.in</a></li>
+        <li><span class="text" style="font-size:0.9rem">KIIT, Bhubaneswar, Odisha</span></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">&copy; <span data-year>2026</span> K-Explore Connect. All rights reserved.</p>
+</footer>
+<script src="js/events-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
