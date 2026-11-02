@@ -99,8 +99,8 @@ K-Explore-Connect/
 ### Option 1: Open directly
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Tejass-raj/K-Explore-Connect.git
-   cd K-Explore-Connect/k-explore-connect
+   git clone https://github.com/Tejass-raj/K-Explore_Connect.git
+   cd K-Explore-Connect/k-explore_connect
    ```
 2. Double-click `index.html` to open it in your browser.
 
